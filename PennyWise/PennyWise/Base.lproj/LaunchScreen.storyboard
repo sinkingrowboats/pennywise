@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MHw-4i-qLx">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SplashScreenViewController-->
+        <scene sceneID="Gts-bv-0PF">
+            <objects>
+                <viewController restorationIdentifier="SplashScreenViewController" storyboardIdentifier="SplashScreenViewController" title="SplashScreenViewController" id="MHw-4i-qLx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mg2-Vq-z8x"/>
+                        <viewControllerLayoutGuide type="bottom" id="UKv-Yp-BGh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3dn-MI-IXD">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundtriangle" translatesAutoresizingMaskIntoConstraints="NO" id="EUV-zP-jcn">
+                                <rect key="frame" x="-210" y="115" width="1234" height="1251"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EUV-zP-jcn" firstAttribute="top" secondItem="mg2-Vq-z8x" secondAttribute="bottom" constant="95" id="0dK-zD-5Mp"/>
+                            <constraint firstItem="UKv-Yp-BGh" firstAttribute="top" secondItem="EUV-zP-jcn" secondAttribute="bottom" id="1c4-u0-2OD"/>
+                            <constraint firstAttribute="trailing" secondItem="EUV-zP-jcn" secondAttribute="trailing" id="1l4-Qs-BVl"/>
+                            <constraint firstItem="EUV-zP-jcn" firstAttribute="top" secondItem="mg2-Vq-z8x" secondAttribute="bottom" constant="8" id="7Mi-NY-gNP"/>
+                            <constraint firstAttribute="trailing" secondItem="EUV-zP-jcn" secondAttribute="trailing" id="7Wc-QW-lcH"/>
+                            <constraint firstItem="EUV-zP-jcn" firstAttribute="leading" secondItem="3dn-MI-IXD" secondAttribute="leading" constant="-177" id="9sJ-W9-3zP"/>
+                            <constraint firstItem="UKv-Yp-BGh" firstAttribute="top" secondItem="EUV-zP-jcn" secondAttribute="bottom" id="CP7-Pe-frZ"/>
+                            <constraint firstItem="EUV-zP-jcn" firstAttribute="leading" secondItem="3dn-MI-IXD" secondAttribute="leading" constant="-95" id="H95-8H-BFF"/>
+                            <constraint firstAttribute="trailing" secondItem="EUV-zP-jcn" secondAttribute="trailing" id="Jcb-93-dng"/>
+                            <constraint firstItem="UKv-Yp-BGh" firstAttribute="top" secondItem="EUV-zP-jcn" secondAttribute="bottom" id="NIS-B4-hUS"/>
+                            <constraint firstItem="EUV-zP-jcn" firstAttribute="leading" secondItem="3dn-MI-IXD" secondAttribute="leading" constant="-210" id="VvC-bM-bhQ"/>
+                            <constraint firstAttribute="trailing" secondItem="EUV-zP-jcn" secondAttribute="trailing" id="WpJ-do-eOF"/>
+                            <constraint firstItem="EUV-zP-jcn" firstAttribute="top" secondItem="mg2-Vq-z8x" secondAttribute="bottom" constant="22" id="Xr7-8C-ZHg"/>
+                            <constraint firstItem="EUV-zP-jcn" firstAttribute="leading" secondItem="3dn-MI-IXD" secondAttribute="leading" constant="-144" id="a3C-rL-0Pw"/>
+                            <constraint firstItem="EUV-zP-jcn" firstAttribute="top" secondItem="mg2-Vq-z8x" secondAttribute="bottom" constant="75" id="cKV-tE-sDT"/>
+                            <constraint firstItem="UKv-Yp-BGh" firstAttribute="top" secondItem="EUV-zP-jcn" secondAttribute="bottom" id="i9U-wu-3bH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0dK-zD-5Mp"/>
+                                <exclude reference="1l4-Qs-BVl"/>
+                                <exclude reference="7Mi-NY-gNP"/>
+                                <exclude reference="7Wc-QW-lcH"/>
+                                <exclude reference="9sJ-W9-3zP"/>
+                                <exclude reference="H95-8H-BFF"/>
+                                <exclude reference="Jcb-93-dng"/>
+                                <exclude reference="VvC-bM-bhQ"/>
+                                <exclude reference="WpJ-do-eOF"/>
+                                <exclude reference="Xr7-8C-ZHg"/>
+                                <exclude reference="a3C-rL-0Pw"/>
+                                <exclude reference="cKV-tE-sDT"/>
+                                <exclude reference="1c4-u0-2OD"/>
+                                <exclude reference="CP7-Pe-frZ"/>
+                                <exclude reference="NIS-B4-hUS"/>
+                                <exclude reference="i9U-wu-3bH"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="7Mi-NY-gNP"/>
+                                <include reference="WpJ-do-eOF"/>
+                                <include reference="a3C-rL-0Pw"/>
+                                <include reference="CP7-Pe-frZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="9sJ-W9-3zP"/>
+                                <include reference="Jcb-93-dng"/>
+                                <include reference="Xr7-8C-ZHg"/>
+                                <include reference="NIS-B4-hUS"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="7Wc-QW-lcH"/>
+                                <include reference="H95-8H-BFF"/>
+                                <include reference="cKV-tE-sDT"/>
+                                <include reference="i9U-wu-3bH"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="0dK-zD-5Mp"/>
+                                <include reference="1l4-Qs-BVl"/>
+                                <include reference="VvC-bM-bhQ"/>
+                                <include reference="1c4-u0-2OD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYc-di-RHL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-442" y="-4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgroundtriangle" width="1500" height="1200"/>
+    </resources>
+</document>

@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0E7DDB1F46B358007DE93F /* Cherry and Kisses Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA0E7DD41F46B224007DE93F /* Cherry and Kisses Personal Use.ttf */; };
+		AA0E7DDC1F46B358007DE93F /* opificio_bold_rounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA0E7DD51F46B224007DE93F /* opificio_bold_rounded.ttf */; };
+		AA0E7DDD1F46B358007DE93F /* opificio_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA0E7DD61F46B224007DE93F /* opificio_bold.ttf */; };
+		AA0E7DDE1F46B358007DE93F /* opificio_light_rounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA0E7DD71F46B224007DE93F /* opificio_light_rounded.ttf */; };
+		AA0E7DDF1F46B358007DE93F /* opificio_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA0E7DD81F46B224007DE93F /* opificio_light.ttf */; };
+		AA0E7DE01F46B358007DE93F /* opificio_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA0E7DD91F46B224007DE93F /* opificio_regular.ttf */; };
+		AA0E7DE11F46B358007DE93F /* opificio_rounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA0E7DDA1F46B224007DE93F /* opificio_rounded.ttf */; };
+		AA0E7DE31F47EBD5007DE93F /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0E7DE21F47EBD5007DE93F /* SplashScreenViewController.swift */; };
+		AA0E7DE51F497738007DE93F /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0E7DE41F497738007DE93F /* SortViewController.swift */; };
+		AA56917C1F4DFA46004E9B2A /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA56917B1F4DFA46004E9B2A /* Purchase.swift */; };
+		AA56917E1F4E00D5004E9B2A /* DummyPurchaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA56917D1F4E00D5004E9B2A /* DummyPurchaseData.swift */; };
+		AA5691841F4EFB7F004E9B2A /* SavingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5691831F4EFB7F004E9B2A /* SavingViewController.swift */; };
+		AA63F16C1F4A476200B88B7B /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA63F16B1F4A476200B88B7B /* CircularTransition.swift */; };
+		AA63F16E1F4AA73700B88B7B /* software_tester_7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA63F16D1F4AA73300B88B7B /* software_tester_7.ttf */; };
+		AA63F1701F4AAE2600B88B7B /* MyFont-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AA63F16F1F4AAE2600B88B7B /* MyFont-Regular.otf */; };
+		AABD1D6A1F52359C00D23431 /* ConnectionServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD1D691F52359C00D23431 /* ConnectionServices.swift */; };
+		AAC73B691F5187BF0036C261 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAC73B681F5187BF0036C261 /* Settings.bundle */; };
+		AAD2735F1F50F97D00CCD14C /* WishListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2735E1F50F97D00CCD14C /* WishListItem.swift */; };
+		AAD273611F5102B100CCD14C /* WishlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD273601F5102B100CCD14C /* WishlistTableViewCell.swift */; };
+		AAF0E1FA1F42A3A400571CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0E1F91F42A3A400571CE7 /* AppDelegate.swift */; };
+		AAF0E1FC1F42A3A400571CE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0E1FB1F42A3A400571CE7 /* LoginViewController.swift */; };
+		AAF0E1FF1F42A3A400571CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E1FD1F42A3A400571CE7 /* Main.storyboard */; };
+		AAF0E2011F42A3A400571CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E2001F42A3A400571CE7 /* Assets.xcassets */; };
+		AAF0E2041F42A3A400571CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF0E2021F42A3A400571CE7 /* LaunchScreen.storyboard */; };
+		AAF0E20F1F42A3A400571CE7 /* PennyWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0E20E1F42A3A400571CE7 /* PennyWiseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAF0E20B1F42A3A400571CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF0E1EE1F42A3A400571CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF0E1F51F42A3A400571CE7;
+			remoteInfo = PennyWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA0E7DD41F46B224007DE93F /* Cherry and Kisses Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cherry and Kisses Personal Use.ttf"; sourceTree = "<group>"; };
+		AA0E7DD51F46B224007DE93F /* opificio_bold_rounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opificio_bold_rounded.ttf; sourceTree = "<group>"; };
+		AA0E7DD61F46B224007DE93F /* opificio_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opificio_bold.ttf; sourceTree = "<group>"; };
+		AA0E7DD71F46B224007DE93F /* opificio_light_rounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opificio_light_rounded.ttf; sourceTree = "<group>"; };
+		AA0E7DD81F46B224007DE93F /* opificio_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opificio_light.ttf; sourceTree = "<group>"; };
+		AA0E7DD91F46B224007DE93F /* opificio_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opificio_regular.ttf; sourceTree = "<group>"; };
+		AA0E7DDA1F46B224007DE93F /* opificio_rounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opificio_rounded.ttf; sourceTree = "<group>"; };
+		AA0E7DE21F47EBD5007DE93F /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		AA0E7DE41F497738007DE93F /* SortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
+		AA56917B1F4DFA46004E9B2A /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		AA56917D1F4E00D5004E9B2A /* DummyPurchaseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyPurchaseData.swift; sourceTree = "<group>"; };
+		AA5691831F4EFB7F004E9B2A /* SavingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingViewController.swift; sourceTree = "<group>"; };
+		AA63F16B1F4A476200B88B7B /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		AA63F16D1F4AA73300B88B7B /* software_tester_7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = software_tester_7.ttf; sourceTree = "<group>"; };
+		AA63F16F1F4AAE2600B88B7B /* MyFont-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyFont-Regular.otf"; sourceTree = "<group>"; };
+		AABD1D691F52359C00D23431 /* ConnectionServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionServices.swift; sourceTree = "<group>"; };
+		AAC73B681F5187BF0036C261 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		AAD2735E1F50F97D00CCD14C /* WishListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListItem.swift; sourceTree = "<group>"; };
+		AAD273601F5102B100CCD14C /* WishlistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishlistTableViewCell.swift; sourceTree = "<group>"; };
+		AAF0E1F61F42A3A400571CE7 /* PennyWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF0E1F91F42A3A400571CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAF0E1FB1F42A3A400571CE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AAF0E1FE1F42A3A400571CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF0E2001F42A3A400571CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF0E2031F42A3A400571CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF0E2051F42A3A400571CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF0E20A1F42A3A400571CE7 /* PennyWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF0E20E1F42A3A400571CE7 /* PennyWiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyWiseTests.swift; sourceTree = "<group>"; };
+		AAF0E2101F42A3A400571CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF0E1F31F42A3A400571CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF0E2071F42A3A400571CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0E7DD31F46B146007DE93F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AA63F16F1F4AAE2600B88B7B /* MyFont-Regular.otf */,
+				AA63F16D1F4AA73300B88B7B /* software_tester_7.ttf */,
+				AA0E7DD41F46B224007DE93F /* Cherry and Kisses Personal Use.ttf */,
+				AA0E7DD51F46B224007DE93F /* opificio_bold_rounded.ttf */,
+				AA0E7DD61F46B224007DE93F /* opificio_bold.ttf */,
+				AA0E7DD71F46B224007DE93F /* opificio_light_rounded.ttf */,
+				AA0E7DD81F46B224007DE93F /* opificio_light.ttf */,
+				AA0E7DD91F46B224007DE93F /* opificio_regular.ttf */,
+				AA0E7DDA1F46B224007DE93F /* opificio_rounded.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		AAF0E1ED1F42A3A400571CE7 = {
+			isa = PBXGroup;
+			children = (
+				AAC73B681F5187BF0036C261 /* Settings.bundle */,
+				AAF0E1F81F42A3A400571CE7 /* PennyWise */,
+				AAF0E20D1F42A3A400571CE7 /* PennyWiseTests */,
+				AAF0E1F71F42A3A400571CE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF0E1F71F42A3A400571CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0E1F61F42A3A400571CE7 /* PennyWise.app */,
+				AAF0E20A1F42A3A400571CE7 /* PennyWiseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF0E1F81F42A3A400571CE7 /* PennyWise */ = {
+			isa = PBXGroup;
+			children = (
+				AA0E7DD31F46B146007DE93F /* Fonts */,
+				AAF0E1F91F42A3A400571CE7 /* AppDelegate.swift */,
+				AA0E7DE21F47EBD5007DE93F /* SplashScreenViewController.swift */,
+				AAF0E1FB1F42A3A400571CE7 /* LoginViewController.swift */,
+				AA0E7DE41F497738007DE93F /* SortViewController.swift */,
+				AA5691831F4EFB7F004E9B2A /* SavingViewController.swift */,
+				AAD273601F5102B100CCD14C /* WishlistTableViewCell.swift */,
+				AAF0E1FD1F42A3A400571CE7 /* Main.storyboard */,
+				AABD1D691F52359C00D23431 /* ConnectionServices.swift */,
+				AAD2735E1F50F97D00CCD14C /* WishListItem.swift */,
+				AA56917B1F4DFA46004E9B2A /* Purchase.swift */,
+				AA56917D1F4E00D5004E9B2A /* DummyPurchaseData.swift */,
+				AA63F16B1F4A476200B88B7B /* CircularTransition.swift */,
+				AAF0E2001F42A3A400571CE7 /* Assets.xcassets */,
+				AAF0E2021F42A3A400571CE7 /* LaunchScreen.storyboard */,
+				AAF0E2051F42A3A400571CE7 /* Info.plist */,
+			);
+			path = PennyWise;
+			sourceTree = "<group>";
+		};
+		AAF0E20D1F42A3A400571CE7 /* PennyWiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0E20E1F42A3A400571CE7 /* PennyWiseTests.swift */,
+				AAF0E2101F42A3A400571CE7 /* Info.plist */,
+			);
+			path = PennyWiseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF0E1F51F42A3A400571CE7 /* PennyWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF0E2131F42A3A400571CE7 /* Build configuration list for PBXNativeTarget "PennyWise" */;
+			buildPhases = (
+				AAF0E1F21F42A3A400571CE7 /* Sources */,
+				AAF0E1F31F42A3A400571CE7 /* Frameworks */,
+				AAF0E1F41F42A3A400571CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennyWise;
+			productName = PennyWise;
+			productReference = AAF0E1F61F42A3A400571CE7 /* PennyWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAF0E2091F42A3A400571CE7 /* PennyWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF0E2161F42A3A400571CE7 /* Build configuration list for PBXNativeTarget "PennyWiseTests" */;
+			buildPhases = (
+				AAF0E2061F42A3A400571CE7 /* Sources */,
+				AAF0E2071F42A3A400571CE7 /* Frameworks */,
+				AAF0E2081F42A3A400571CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF0E20C1F42A3A400571CE7 /* PBXTargetDependency */,
+			);
+			name = PennyWiseTests;
+			productName = PennyWiseTests;
+			productReference = AAF0E20A1F42A3A400571CE7 /* PennyWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF0E1EE1F42A3A400571CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Samantha Rey";
+				TargetAttributes = {
+					AAF0E1F51F42A3A400571CE7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NHMU5UC8U7;
+						ProvisioningStyle = Automatic;
+					};
+					AAF0E2091F42A3A400571CE7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NHMU5UC8U7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAF0E1F51F42A3A400571CE7;
+					};
+				};
+			};
+			buildConfigurationList = AAF0E1F11F42A3A400571CE7 /* Build configuration list for PBXProject "PennyWise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF0E1ED1F42A3A400571CE7;
+			productRefGroup = AAF0E1F71F42A3A400571CE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF0E1F51F42A3A400571CE7 /* PennyWise */,
+				AAF0E2091F42A3A400571CE7 /* PennyWiseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF0E1F41F42A3A400571CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA63F16E1F4AA73700B88B7B /* software_tester_7.ttf in Resources */,
+				AA0E7DDB1F46B358007DE93F /* Cherry and Kisses Personal Use.ttf in Resources */,
+				AAC73B691F5187BF0036C261 /* Settings.bundle in Resources */,
+				AA0E7DDC1F46B358007DE93F /* opificio_bold_rounded.ttf in Resources */,
+				AA0E7DDD1F46B358007DE93F /* opificio_bold.ttf in Resources */,
+				AA0E7DDE1F46B358007DE93F /* opificio_light_rounded.ttf in Resources */,
+				AA0E7DDF1F46B358007DE93F /* opificio_light.ttf in Resources */,
+				AA0E7DE01F46B358007DE93F /* opificio_regular.ttf in Resources */,
+				AA0E7DE11F46B358007DE93F /* opificio_rounded.ttf in Resources */,
+				AAF0E2041F42A3A400571CE7 /* LaunchScreen.storyboard in Resources */,
+				AA63F1701F4AAE2600B88B7B /* MyFont-Regular.otf in Resources */,
+				AAF0E2011F42A3A400571CE7 /* Assets.xcassets in Resources */,
+				AAF0E1FF1F42A3A400571CE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF0E2081F42A3A400571CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF0E1F21F42A3A400571CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD273611F5102B100CCD14C /* WishlistTableViewCell.swift in Sources */,
+				AAD2735F1F50F97D00CCD14C /* WishListItem.swift in Sources */,
+				AABD1D6A1F52359C00D23431 /* ConnectionServices.swift in Sources */,
+				AA63F16C1F4A476200B88B7B /* CircularTransition.swift in Sources */,
+				AAF0E1FC1F42A3A400571CE7 /* LoginViewController.swift in Sources */,
+				AA56917E1F4E00D5004E9B2A /* DummyPurchaseData.swift in Sources */,
+				AAF0E1FA1F42A3A400571CE7 /* AppDelegate.swift in Sources */,
+				AA0E7DE51F497738007DE93F /* SortViewController.swift in Sources */,
+				AA0E7DE31F47EBD5007DE93F /* SplashScreenViewController.swift in Sources */,
+				AA56917C1F4DFA46004E9B2A /* Purchase.swift in Sources */,
+				AA5691841F4EFB7F004E9B2A /* SavingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF0E2061F42A3A400571CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF0E20F1F42A3A400571CE7 /* PennyWiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAF0E20C1F42A3A400571CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF0E1F51F42A3A400571CE7 /* PennyWise */;
+			targetProxy = AAF0E20B1F42A3A400571CE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAF0E1FD1F42A3A400571CE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF0E1FE1F42A3A400571CE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAF0E2021F42A3A400571CE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF0E2031F42A3A400571CE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF0E2111F42A3A400571CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAF0E2121F42A3A400571CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF0E2141F42A3A400571CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NHMU5UC8U7;
+				INFOPLIST_FILE = PennyWise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennyWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAF0E2151F42A3A400571CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NHMU5UC8U7;
+				INFOPLIST_FILE = PennyWise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennyWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AAF0E2171F42A3A400571CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NHMU5UC8U7;
+				INFOPLIST_FILE = PennyWiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennyWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyWise.app/PennyWise";
+			};
+			name = Debug;
+		};
+		AAF0E2181F42A3A400571CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NHMU5UC8U7;
+				INFOPLIST_FILE = PennyWiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennyWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyWise.app/PennyWise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF0E1F11F42A3A400571CE7 /* Build configuration list for PBXProject "PennyWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF0E2111F42A3A400571CE7 /* Debug */,
+				AAF0E2121F42A3A400571CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF0E2131F42A3A400571CE7 /* Build configuration list for PBXNativeTarget "PennyWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF0E2141F42A3A400571CE7 /* Debug */,
+				AAF0E2151F42A3A400571CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF0E2161F42A3A400571CE7 /* Build configuration list for PBXNativeTarget "PennyWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF0E2171F42A3A400571CE7 /* Debug */,
+				AAF0E2181F42A3A400571CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF0E1EE1F42A3A400571CE7 /* Project object */;
+}
